@@ -68,7 +68,7 @@ const Footer = () => {
               <ul className="footer-links">
                 {section.links.map((link, index) => (
                   <li key={index}>
-                    <a className="footer-link">
+                    <a href="/pricing" className="footer-link">
                       {typeof link === "object" ? (
                         <span className="link-with-badge">
                           {link.name}

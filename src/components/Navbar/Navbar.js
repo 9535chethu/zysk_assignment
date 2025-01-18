@@ -71,7 +71,9 @@ function Navbar() {
               >
                 {productItems.map((item, index) => (
                   <li key={index}>
-                    <a className="dropdown-item">{item}</a>
+                    <a href="/pricing" className="dropdown-item">
+                      {item}
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -94,7 +96,9 @@ function Navbar() {
               >
                 {resourceItems.map((item, index) => (
                   <li key={index}>
-                    <a className="dropdown-item">{item}</a>
+                    <a href="/pricing" className="dropdown-item">
+                      {item}
+                    </a>
                   </li>
                 ))}
               </ul>
