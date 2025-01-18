@@ -1,0 +1,104 @@
+.sisyphus-testimonial {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  background-color: #f9fafb;
+}
+
+.sisyphus-testimonial__logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.sisyphus-testimonial__logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sisyphus-testimonial__logo-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #10b981;
+}
+
+.sisyphus-testimonial__logo-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.sisyphus-testimonial__logo-image {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: -30%;
+  object-fit: contain;
+}
+
+.sisyphus-testimonial__quote {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.2;
+}
+
+.sisyphus-testimonial__author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sisyphus-testimonial__author-image-wrapper {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.sisyphus-testimonial__author-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.sisyphus-testimonial__author-info {
+  text-align: center;
+}
+
+.sisyphus-testimonial__author-name {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: 0.25rem;
+}
+
+.sisyphus-testimonial__author-title {
+  color: #6b7280;
+}
+
+/* Media Queries for Responsive Design */
+@media (min-width: 768px) {
+  .sisyphus-testimonial__quote {
+    font-size: 2.25rem;
+  }
+
+  .sisyphus-testimonial {
+    padding: 4rem 2rem;
+  }
+}
+
+/* For smaller mobile devices */
+@media (max-width: 480px) {
+  .sisyphus-testimonial {
+    padding: 2rem 1rem;
+  }
+
+  .sisyphus-testimonial__quote {
+    font-size: 1.25rem;
+  }
+}
