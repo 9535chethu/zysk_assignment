@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import company from "../company.png"; 
-import image from "./image.jpeg"; 
+import company from "../company.png";
+import image from "./image.jpeg";
 import "./Navbar.css";
 
 const ChevronIcon = () => (
@@ -71,9 +71,7 @@ function Navbar() {
               >
                 {productItems.map((item, index) => (
                   <li key={index}>
-                    <a href="#" className="dropdown-item">
-                      {item}
-                    </a>
+                    <a className="dropdown-item">{item}</a>
                   </li>
                 ))}
               </ul>
@@ -96,9 +94,7 @@ function Navbar() {
               >
                 {resourceItems.map((item, index) => (
                   <li key={index}>
-                    <a href="#" className="dropdown-item">
-                      {item}
-                    </a>
+                    <a className="dropdown-item">{item}</a>
                   </li>
                 ))}
               </ul>

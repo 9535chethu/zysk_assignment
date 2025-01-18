@@ -7,7 +7,7 @@ function Hero() {
     <div className="hero">
       <div className="new-feature">
         <span className="feature-tag">New feature</span>
-        <a href="#" className="feature-link">
+        <a className="feature-link">
           Check out the team dashboard
           <svg
             xmlns="http://www.w3.org/2000/svg"
